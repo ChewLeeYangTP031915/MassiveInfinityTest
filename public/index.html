@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="/js/axios.min.js"></script>
+  <script type="text/javascript"src="/js/sorttable.js"></script>
+  <script type="text/javascript" src="/js/ProductList.js"></script>
+  <style>
+    table {
+      margin-top: 2em
+    }
+
+    th {
+      padding: 2px 25px;
+      border: 1px solid black;
+    }
+
+    td {
+      text-align: center;
+      border: 1px dotted darkslategray;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h2>Product List</h2>
+    <div>
+      <form onsubmit="return false">
+        <label for="brand">Brand</label>
+        <input type="text" id="brand" />
+        <label for="productName">Product Name</label>
+        <input type="text" id="productName" />
+        <input type="submit" value="Search" onclick="search()">
+      </form>
+
+      <table id="productListTable" class="sorttable">
+        <thead>
+          <th class="sorttable_nosort">UPC12 Barcode</th>
+          <th>Brand</th>
+          <th>Product Name</th>
+          <th class="sorttable_nosort">Edit</th>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </center>
+
+  <script>
+    window.onload = init();
+  </script>
+</body>
+
+</html>

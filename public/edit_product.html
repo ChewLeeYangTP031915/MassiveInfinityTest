@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="/js/lodash.min.js"></script>
+  <script type="text/javascript" src="/js/axios.min.js"></script>
+  <script type="text/javascript" src="/js/EditProduct.js"></script>
+  <style>
+    input {
+      width: 100%;
+    }
+
+    td {
+      padding: 5px 10px;
+      margin: 0px 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <div>
+      <h2>Edit Product Page</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <label for="upcCode">UPC12 Number:</label>
+              <input type="text" id="upcCode" oninput="validateNumber(this)"  maxlength="12"/>
+            </td>
+            <td>
+              <label for="">Brand</label>
+              <input type="text" id="brand" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <label>Product Name</label>
+              <input type="text" id="productName" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button id="saveBtn" onclick="save()">Save</button>
+            </td>
+            <td>
+              <button id="cancelBtn" onclick="cancelEdit()">Cancel</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </center>
+
+  <script>
+    window.onload = init();
+  </script>
+</body>
+
+</html>
