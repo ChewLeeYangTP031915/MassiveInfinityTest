@@ -1,12 +1,127 @@
 [
   {
-    "barcode": 725272730702,
+    "barcode": 100000000001,
     "brand": "Colgate",
     "name": "Colgate Toothpaste"
   },
   {
-    "barcode": 725272730703,
+    "barcode": 100000000002,
     "brand": "Amigo",
+    "name": "Bla Bla"
+  },
+  {
+    "barcode": 100000000003,
+    "brand": "ZZ",
+    "name": "CCC"
+  },
+  {
+    "barcode": 100000000004,
+    "brand": "ADF",
+    "name": "GJW"
+  },
+  {
+    "barcode": 100000000005,
+    "brand": "QWE",
+    "name": "Bla Bla"
+  },
+  {
+    "barcode": 100000000006,
+    "brand": "PL",
+    "name": "Axx"
+  },
+  {
+    "barcode": 100000000007,
+    "brand": "Pk",
+    "name": "DD"
+  },
+  {
+    "barcode": 100000000008,
+    "brand": "Plld",
+    "name": "FA"
+  },
+  {
+    "barcode": 100000000009,
+    "brand": "DDSA",
+    "name": "AADA"
+  },
+  {
+    "barcode": 100000000010,
+    "brand": "9F383",
+    "name": "AAPF"
+  },
+  {
+    "barcode": 100000000011,
+    "brand": "liekw",
+    "name": "ABCD"
+  },
+  {
+    "barcode": 100000000012,
+    "brand": "fffa",
+    "name": "CCk"
+  },
+  {
+    "barcode": 100000000013,
+    "brand": "oeiw",
+    "name": "kOk"
+  },
+  {
+    "barcode": 100000000014,
+    "brand": "LLLLd",
+    "name": "NMD"
+  },
+  {
+    "barcode": 100000000015,
+    "brand": "FECEC",
+    "name": "Nike"
+  },
+  {
+    "barcode": 100000000016,
+    "brand": "MDM",
+    "name": "Skechers"
+  },
+  {
+    "barcode": 100000000017,
+    "brand": "VCBD",
+    "name": "Starbucks"
+  },
+  {
+    "barcode": 100000000018,
+    "brand": "PPPAQ",
+    "name": "Ding"
+  },
+  {
+    "barcode": 100000000019,
+    "brand": "LOL",
+    "name": "Bla Bla"
+  },
+  {
+    "barcode": 100000000020,
+    "brand": "KKK",
+    "name": "Bla Bla"
+  },
+  {
+    "barcode": 100000000021,
+    "brand": "QWERT",
+    "name": "Bla Bla"
+  },
+  {
+    "barcode": 100000000022,
+    "brand": "pppAAAA",
+    "name": "LOD"
+  },
+  {
+    "barcode": 100000000023,
+    "brand": "POPI",
+    "name": "Haw Flakes"
+  },
+  {
+    "barcode": 100000000024,
+    "brand": "YUI",
+    "name": "Bla Bla"
+  },
+  {
+    "barcode": 100000000025,
+    "brand": "FUI",
     "name": "Bla Bla"
   }
 ]
